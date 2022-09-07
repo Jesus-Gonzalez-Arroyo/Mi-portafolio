@@ -1,0 +1,43 @@
+main{
+    width: 100%;
+}
+
+.container-description{
+    width: 70%;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.img-description{
+    width: 30%;
+}
+
+.info-description{
+    width: 70%;
+    text-align: center;
+    font-family: "Segoe UI";
+    font-size: 23px;
+}
+
+.info-description p{
+    font-size: 20px;
+}
+
+.info-description a{
+    width: 20%;
+    border-radius: 40px;
+    padding: 13px;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+}
+
+.img-description img{
+    width: 290px;
+    height: 290px;
+    border-radius: 150px;
+}

@@ -2,10 +2,14 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background: #04293A;
+    color: #fff;
+}
+
 .container-header{
     width: 100%;
     padding: 20px 0;
-    background: #16213E;
     color: #fff;
 }
 

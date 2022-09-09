@@ -1,15 +1,15 @@
 import React from "react";
 import './style/conocimientos.css'
 import html from '../source/image/logo-html.png'
-import css from '../source/image/logo-css.jpg'
+import css from '../source/image/logo-css.png'
 import js from '../source/image/logo-js.jpg'
 import react from '../source/image/logo-react.png'
 import git from '../source/image/logo-git.png'
 import bootstrap from '../source/image/logo-bootstrap.png'
 import typescript from '../source/image/logo-typescript.webp'
-import  nodeJs from '../source/image/logo-node-js.png'
-import  tailwind from '../source/image/logo-tailwind.png'
-import  angular from '../source/image/logo-angular.png'
+import nodeJs from '../source/image/logo-node-js.png'
+import tailwind from '../source/image/logo-tailwind.png'
+import angular from '../source/image/logo-angular.png'
 
 export default function Conocimientos (){
     return(

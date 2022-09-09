@@ -2,6 +2,8 @@ import React from "react";
 import foto from '../source/image/foto-prueba.webp'
 import './style/proyectos.css'
 
+// componente donde voy a exponer los conocimientos que tengo 
+
 export default function Proyectos (){
     return(
         <>

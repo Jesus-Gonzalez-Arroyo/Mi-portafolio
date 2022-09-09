@@ -2,6 +2,7 @@ import React from "react";
 import './style/Info_personal.css'
 import rick from '../source/image/Rick.webp'
 
+// Componente donde estara mi informacion personal y de presentacion
 
 export default function InformacionPersonal (){
     return(

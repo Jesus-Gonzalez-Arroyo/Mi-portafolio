@@ -1,0 +1,25 @@
+.container-contacto{
+    width: 100%;
+}
+
+.container-contacto h2{
+    margin: 60px 0 40px 150px;
+    font-family: "Segoe UI";
+}
+
+.icon{
+    margin: 10px 35px;
+    padding: 13px;
+    font-size: 35px;
+    border-radius: 50%;
+    background: #777;
+}
+
+.info-contact{
+    text-align: center;
+    font-family: "Segoe UI";
+}
+
+.info-contact p{
+    font-size: 20px;
+}

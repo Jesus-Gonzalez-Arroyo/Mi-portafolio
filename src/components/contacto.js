@@ -1,5 +1,5 @@
 import React from "react";
-import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa"
+import { FaWhatsapp, FaLinkedin, FaGithub, FaGoogle } from "react-icons/fa"
 import './style/contacto.css'
 
 // componente donde estara mis medios de contacto
@@ -7,11 +7,24 @@ import './style/contacto.css'
 export default function Contacto(){
     return(
         <>
-            <div className="container-contacto">
+            <div className="container-contacto" id="contacto">
                 <h2>Contacto</h2>
                 <div className="info-contact">
                     <p>Estos son mis metodos de contacto donde te podras comunicar conmigo</p>
-                    <FaWhatsapp className="icon"/><FaGithub className="icon"/><FaLinkedin className="icon"/>
+                    <div className="container-flex-contact">
+                        <div>
+                            <a href="https://wa.me/3043925018" target='blank'><FaWhatsapp className="icon"/></a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/jesus-gonzalez-8430a1242/" target='blank'><FaLinkedin className="icon"/></a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/Jisus1102" target='blank'><FaGithub className="icon"/></a>
+                        </div>
+                        <div>
+                            <a href="h" target='blank'><FaGoogle className="icon"/></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

@@ -14,7 +14,7 @@ export default function InformacionPersonal (){
                     <a href="https://wa.me/3043925018" target='blank'>Contactar</a>
                 </div>
                 <div className="img-description">
-                    <img src={rick}/>
+                    <img src={rick} alt='imagen-personal'/>
                 </div>
             </div>
         </>

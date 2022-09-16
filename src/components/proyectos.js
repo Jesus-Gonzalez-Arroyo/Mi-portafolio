@@ -14,28 +14,28 @@ export default function Proyectos (){
                 <div className="lista-proyectos">
                     <div className="proyecto">
                         <div>
-                            <img src={RickAndMorty}/>
-                            <p>Este proyecto esta creado con React js y bootstrap consumiendo una api</p>
+                            <img src={RickAndMorty} alt='imagen-proyecto'/>
+                            <p>Este proyecto esta creado con React js y bootstrap consumiendo una api de una serie de television llamada Rick and Morty, esta pagina esta destinada a exponer la informacion de cada uno de los personajes de la serie.</p>
                             <a className="link-proyecto" target='blank' href="https://rickandmorty-87c10.web.app/">Ver proyecto</a>
                         </div> 
                     </div>
                     <div className="proyecto">
                         <div>
-                            <img src={Calculadora}/>
-                            <p>Este proyecto esta creado con HTML, Css y Javascript</p>
+                            <img src={Calculadora} alt='imagen-proyecto'/>
+                            <p>Este proyecto esta creado con HTML, Css y Javascript, simulando una calculadora tiene todas sus funciones basicas para operaciones matematicas.</p>
                             <a className="link-proyecto" target='blank' href="https://calculadora-be9bd.web.app/">Ver proyecto</a>
                         </div>
                     </div>
                     <div className="proyecto">
                         <div>
-                            <img src={foto}/>
+                            <img src={foto} alt='imagen-proyecto'/>
                             <p>Este proyecto esta creado con HTML, Css y Javascript</p>
                             <a className="link-proyecto" href="f">Ver proyecto</a>
                         </div>
                     </div>
                     <div className="proyecto">
                         <div>
-                            <img src={foto}/>
+                            <img src={foto} alt='imagen-proyecto' />
                             <p>Este proyecto esta creado con HTML, Css y Javascript</p>
                             <a className="link-proyecto" href="f">Ver proyecto</a>
                         </div>

@@ -4,6 +4,7 @@ main{
 
 .container-description{
     width: 70%;
+    min-height: 60vh;
     margin: 40px auto;
     padding: 20px;
     display: flex;

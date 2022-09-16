@@ -9,17 +9,11 @@ class App extends React.Component{
     render(){
         return(
             <>
-                <header>
-                    <Header/>
-                </header>
-                <main>
-                    <InformacionPersonal/>
-                    <Conocimientos/>
-                    <Proyectos/>
-                </main>
-                <footer>
-                    <Contacto/>
-                </footer>
+                <Header/>
+                <InformacionPersonal/>
+                <Conocimientos/>
+                <Proyectos/>
+                <Contacto/>
             </>
         )
     }

@@ -43,3 +43,19 @@ a{
     text-decoration: none;
     color: #fff;
 }
+
+/*Version tablet*/
+
+@media screen and (max-width: 900px) {
+    .container-menu{
+        display: block;
+    }
+}
+
+/*Version movile*/
+
+@media screen and (max-width: 500px) {
+    .container-menu{
+        display: none;
+    }
+}

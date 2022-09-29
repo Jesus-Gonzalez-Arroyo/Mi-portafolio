@@ -42,3 +42,64 @@ main{
     height: 290px;
     border-radius: 150px;
 }
+
+/*Version Tablet*/
+
+@media screen and (max-width: 900px){
+
+    .container-description{
+        width: 80%;
+        height: 50vh;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .info-description{
+        width: 50%;
+    }
+
+    .info-description a{
+        width: 50%;
+    }
+
+    .img-description{
+        width: 50%;
+    }
+
+    .img-description img{
+        margin: auto;
+        display: block;
+    }
+}
+
+
+/*Version movile*/
+
+@media screen and (max-width:500px) {
+
+    .container-description{
+        flex-wrap: wrap-reverse;
+        width: 80%;
+        max-width: 80%;
+        height: 90vh;
+        max-height: 90vh;
+    }
+
+    .img-description{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .img-description img{
+        margin: auto;
+        display: block;
+    }
+
+    .info-description{
+        width: 100%;
+    }
+
+    .info-description a{
+        width: 50%;
+    }
+}

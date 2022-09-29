@@ -34,3 +34,50 @@
     width: 100%;
     text-align: center;
 }
+
+/*Version tablet*/
+
+@media screen and (max-width: 900px) {
+    .container-contacto{
+        width: 100%;
+        margin: 10% auto 0 auto;
+        text-align: center;
+    }
+
+    .container-contacto h2{
+        margin: 0;
+    }
+
+    .container-contacto p{
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .container-flex-contact{
+        width: 60%;
+    }
+}
+
+
+
+/*Version movile*/
+
+@media screen and (max-width: 500px) {
+    .container-contacto{
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-contacto h2{
+        margin: 0;
+    }
+
+    .container-contacto p{
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .container-flex-contact{
+        width: 90%;
+    }
+}

@@ -51,3 +51,45 @@
     color: #444;
     background-color: #000;
 }
+
+/*Version Tablet*/
+
+@media screen and (max-width: 900px) {
+    .container-proyectos{
+        width: 100%;
+        padding: 40px 0 0 0;
+        text-align: center;
+    }
+
+    .container-proyectos h2{
+        margin: 0;
+    }
+
+    .proyecto{
+        width: 80%;
+        min-width: 80%;
+        min-height: 450px;
+    }
+
+}
+
+
+/*Version movile*/
+
+@media screen and (max-width: 500px) {
+    .container-proyectos{
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-proyectos h2{
+        margin: 0;
+    }
+
+    .proyecto{
+        width: 80%;
+        min-width: 80%;
+        min-height: 500px;
+    }
+
+}

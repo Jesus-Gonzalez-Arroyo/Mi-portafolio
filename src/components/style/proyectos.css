@@ -10,7 +10,7 @@
 
 .lista-proyectos{
     width: 90%;
-    margin: 35px auto;
+    margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
     font-family: 'Segoe UI';

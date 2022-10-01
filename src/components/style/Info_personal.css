@@ -80,8 +80,8 @@ main{
         flex-wrap: wrap-reverse;
         width: 80%;
         max-width: 80%;
-        height: 90vh;
-        max-height: 90vh;
+        height: 80vh;
+        max-height: 80vh;
     }
 
     .img-description{

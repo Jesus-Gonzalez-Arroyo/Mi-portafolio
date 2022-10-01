@@ -49,6 +49,10 @@ a{
     color: #fff;
 }
 
+.container-icon-menu{
+    display: none;
+}
+
 /*Version tablet*/
 
 @media screen and (max-width: 1000px) {
@@ -62,5 +66,15 @@ a{
 @media screen and (max-width: 600px) {
     .container-menu{
         display: none;
+    }
+
+    .container-icon-menu{
+        width: 100%;
+        display: block;
+    }
+
+    .icon-menu{
+        margin: 0 30px;
+        font-size: 30px;
     }
 }

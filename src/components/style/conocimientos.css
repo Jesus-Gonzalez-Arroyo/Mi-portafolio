@@ -35,7 +35,7 @@
 
 /*Version tablet*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .lista-conocimientos{
         width: 100%;
         padding: 60px 0 0 0;
@@ -54,7 +54,7 @@
 
 /*Version movile*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .lista-conocimientos{
         width: 100%;
         text-align: center;

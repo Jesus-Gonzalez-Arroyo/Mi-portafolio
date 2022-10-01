@@ -51,7 +51,7 @@ a{
 
 /*Version tablet*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .container-menu{
         display: block;
     }
@@ -59,7 +59,7 @@ a{
 
 /*Version movile*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .container-menu{
         display: none;
     }

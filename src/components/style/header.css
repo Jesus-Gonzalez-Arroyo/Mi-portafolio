@@ -14,7 +14,7 @@ body{
 
 .container-header{
     width: 100%;
-    padding: 20px 0;
+    padding: 0;
     color: #fff;
 }
 
@@ -66,15 +66,5 @@ a{
 @media screen and (max-width: 600px) {
     .container-menu{
         display: none;
-    }
-
-    .container-icon-menu{
-        width: 100%;
-        display: block;
-    }
-
-    .icon-menu{
-        margin: 0 30px;
-        font-size: 30px;
     }
 }

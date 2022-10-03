@@ -4,6 +4,7 @@ import InformacionPersonal from "../components/InfoPersonal";
 import Conocimientos from "../components/conocimientos";
 import Proyectos from "../components/proyectos";
 import Contacto from "../components/contacto";
+import Menudespegable from "../components/menu_despegable";
 
 class App extends React.Component{
     render(){
@@ -11,6 +12,7 @@ class App extends React.Component{
             <>
                 <header>
                     <Header/>
+                    <Menudespegable/>
                 </header>
                 <main>
                     <InformacionPersonal/>

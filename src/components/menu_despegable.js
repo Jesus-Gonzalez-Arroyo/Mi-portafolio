@@ -8,6 +8,8 @@ export default function Menudespegable(){
     const [MenuMobile, setMenuMobile] = useState(false)
 
     return(
+        
+        /*Utilizamos usestate para abrir y cerrae el menu con el styled-components*/
         <IconContext.Provider value={{style: {fontSize: '30px'}}}>
 
             <Containermenu>

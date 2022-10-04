@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Nav = styled.nav`
     width: 100%;
     height: 100vh;
+    //operador ternario para abrir o cerrar el menu
     left: ${({open}) => open ? '0' : '-100%'};
     position: absolute;
     background: #222831;
@@ -35,8 +36,9 @@ export const Containermenu = styled.div`
     margin: 17px 0 15px 15px;
     padding: 0;
     display: none;
+    cursor: pointer ;
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 670px){
         display: block;
     }
 `;

@@ -63,7 +63,7 @@ a{
 
 /*Version movile*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
     .container-menu{
         display: none;
     }

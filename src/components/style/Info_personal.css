@@ -4,8 +4,8 @@ main{
 
 .container-description{
     width: 70%;
-    min-height: 60vh;
-    margin: 40px auto;
+    min-height: 50vh;
+    margin: 40px auto 130px auto;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -26,15 +26,27 @@ main{
     font-size: 20px;
 }
 
-.info-description a{
-    width: 20%;
+.container-btn-info{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.container-btn-info a{
+    width: 50%;
+    margin: 0 10px;
     border-radius: 40px;
     padding: 13px;
     font-size: 15px;
     display: inline-block;
     text-decoration: none;
+    transition: all .4s;
     color: #fff;
     background: #333;
+}
+
+.container-btn-info a:hover{
+    transform: scale(.9);
 }
 
 .img-description img{
@@ -100,5 +112,10 @@ main{
 
     .info-description a{
         width: 50%;
+    }
+
+    .container-btn-info{
+        width: 100%;
+        display: flex;
     }
 }

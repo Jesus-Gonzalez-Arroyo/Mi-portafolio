@@ -8,8 +8,9 @@ import git from '../source/image/logo-git.png'
 import bootstrap from '../source/image/logo-bootstrap.png'
 import Sass from '../source/image/Sass.png'
 import nodeJs from '../source/image/logo-node-js.png'
-import Jquery from '../source/image/jQuery-logo.png'
 import angular from '../source/image/logo-angular.png'
+import Typescript from '../source/image/typescript.png'
+import Vue from '../source/image/Vue.png'
 
 export default function Conocimientos (){
     return(
@@ -42,10 +43,6 @@ export default function Conocimientos (){
                         <p>Git</p>
                     </div>
                     <div className="conocimiento">
-                        <img src={Jquery} alt='Typescript'/>
-                        <p>Jquery</p>
-                    </div>
-                    <div className="conocimiento">
                         <img src={nodeJs} alt='Node js'/>
                         <p>Node js</p>
                     </div>
@@ -56,6 +53,14 @@ export default function Conocimientos (){
                     <div className="conocimiento">
                         <img src={angular} alt='Angular'/>
                         <p>Angular</p>
+                    </div>
+                    <div className="conocimiento">
+                        <img src={Typescript} alt='Angular'/>
+                        <p>Typescript</p>
+                    </div>
+                    <div className="conocimiento">
+                        <img src={Vue} alt='Angular'/>
+                        <p>Vue</p>
                     </div>
                 </div>
             </div>

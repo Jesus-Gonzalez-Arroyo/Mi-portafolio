@@ -41,12 +41,12 @@ main{
     display: inline-block;
     text-decoration: none;
     transition: all .4s;
-    color: #fff;
-    background: #333;
+    color: #000;
+    background: #EEEEEE;
 }
 
 .container-btn-info a:hover{
-    transform: scale(.9);
+    background: #8B9A46;
 }
 
 .img-description img{

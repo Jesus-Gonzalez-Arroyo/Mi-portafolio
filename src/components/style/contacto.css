@@ -12,11 +12,30 @@
     padding: 13px;
     font-size: 35px;
     border-radius: 50%;
-    background: #777;
 }
 
 .icon:hover{
     transform: scale(1.2);
+}
+
+.whatsapp{
+    background: rgb(0, 124, 0);
+    color: #fff;
+}
+
+.linkedin{
+    background: rgb(41, 41, 245);
+    color: #fff;
+}
+
+.github{
+    background: #fff;
+    color: #222;
+}
+
+.gmail{
+    background: #fff;
+    color: red;
 }
 
 .info-contact{

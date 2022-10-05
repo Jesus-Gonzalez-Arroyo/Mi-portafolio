@@ -8,15 +8,15 @@ header{
 }
 
 body{
-    color: #000;
+    color: #fff;
     margin: 0;
-    background: #222831;
+    background: #0F0E0E;
 }
 
 .container-header{
     width: 100%;
     padding: 0;
-    color: #fff;
+    color: #000;
 }
 
 .container-menu{

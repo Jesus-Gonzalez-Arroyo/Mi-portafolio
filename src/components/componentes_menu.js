@@ -29,6 +29,10 @@ export const A = styled.a`
     font-size: 25px;
     font-family: Segoe UI;
     color: #fff;
+
+    &:hover{
+        color: #555;
+    }
 `;
 
 export const Containermenu = styled.div`

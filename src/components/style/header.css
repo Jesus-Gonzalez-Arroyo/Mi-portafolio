@@ -8,8 +8,9 @@ header{
 }
 
 body{
+    color: #000;
+    margin: 0;
     background: #222831;
-    color: #fff;
 }
 
 .container-header{

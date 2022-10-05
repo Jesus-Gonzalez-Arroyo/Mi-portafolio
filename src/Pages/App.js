@@ -21,7 +21,7 @@ class App extends React.Component{
                 </main>
                 <footer>
                     <Contacto/>
-                </footer>
+                </footer>   
             </>
         )
     }

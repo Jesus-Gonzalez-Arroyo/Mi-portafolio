@@ -15,6 +15,10 @@
     background: #777;
 }
 
+.icon:hover{
+    transform: scale(1.2);
+}
+
 .info-contact{
     text-align: center;
     font-family: "Segoe UI";

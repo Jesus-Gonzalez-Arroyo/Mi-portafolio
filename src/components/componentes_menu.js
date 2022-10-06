@@ -6,7 +6,7 @@ export const Nav = styled.nav`
     //operador ternario para abrir o cerrar el menu
     left: ${({open}) => open ? '0' : '-100%'};
     position: absolute;
-    background: #222831;
+    background: #0F0E0E;
     transition: all 1s;
 `;
 

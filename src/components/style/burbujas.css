@@ -124,3 +124,118 @@
         opacity: 0;
     }
 }
+
+
+@media screen and (max-width: 635px) {
+    .burbujas:nth-child(1){
+        left: 10%;
+        animation-duration: 18s;
+        background: #79018C;
+    }
+    .burbujas:nth-child(2){
+        left: 15%;
+        animation-duration: 15s;
+        background: #1E5128;
+    }
+    .burbujas:nth-child(3){
+        left: 50%;
+        animation-duration: 13s;
+        background: #FF4C29;
+    }
+    .burbujas:nth-child(4){
+        left: 80%;
+        animation-duration: 10.3s;
+        background: #1E5128;
+    }
+    .burbujas:nth-child(5){
+        left: 84%;
+        animation-duration:14s;
+        background: #79018C;
+    }
+    .burbujas:nth-child(6){
+        left: 34%;
+        animation-duration: 12.7s;
+        background: #D89216;
+    }
+    .burbujas:nth-child(7){
+        left: 67%;
+        animation-duration: 11.3s;
+        background: #C996CC;
+    }
+    .burbujas:nth-child(8){
+        left: 74%;
+        animation-duration: 13s;
+        background: #1E5128;
+    }
+    .burbujas:nth-child(9){
+        left: 3%;
+        animation-duration: 11.8s;
+        background: #1E5128;
+    }
+    .burbujas:nth-child(10){
+        left: 74%;
+        animation-duration: 9.4s;
+        background: #1E5128;
+    }
+    .burbujas:nth-child(11){
+        left: 80%;
+        animation-duration: 10.7s;
+        background: #FF4C29;
+    }
+    .burbujas:nth-child(12){
+        left: 18%;
+        animation-duration: 14.9s;
+        background: #a1be1d;
+    }
+    .burbujas:nth-child(13){
+        left: 44%;
+        animation-duration: 12.5s;
+        background: #b61e6a;
+    }
+    .burbujas:nth-child(14){
+        left: 56%;
+        animation-duration: 14.1s;
+        background: #FF4C29;
+    }
+    .burbujas:nth-child(15){
+        left: 60%;
+        animation-duration: 12s;
+        background: #FF4C29;
+    }
+
+    .burbujas:nth-child(16){
+        left: 15%;
+        animation-duration: 9.7s;
+        background: #FF4C29;
+    }
+    .burbujas:nth-child(17){
+        left: 64%;
+        animation-duration: 10.5s;
+        background: #b61e6a;
+    }
+    .burbujas:nth-child(18){
+        left: 61%;
+        animation-duration: 8.9s;
+        background: #1E5128;
+    }
+
+    /*Mejora de animacion*/
+
+    @keyframes burbujas{
+        0%{
+            bottom: 100vh;
+            opacity: .1;
+        }
+        50%{
+            opacity: .6;
+        }
+        80%{
+            opacity: .3;
+        }
+        100%{
+            bottom: -540vh;
+            opacity: 0;
+        }
+    }
+    
+}

@@ -120,7 +120,7 @@
         opacity: .3;
     }
     100%{
-        bottom: -310vh;
+        bottom: -250vh;
         opacity: 0;
     }
 }
@@ -129,99 +129,100 @@
 @media screen and (max-width: 635px) {
     .burbujas:nth-child(1){
         left: 10%;
-        animation-duration: 18s;
+        animation: burbujas-mobile 18s linear infinite;
         background: #79018C;
     }
     .burbujas:nth-child(2){
         left: 15%;
-        animation-duration: 15s;
+        animation: burbujas-mobile 15s linear infinite;
         background: #1E5128;
     }
     .burbujas:nth-child(3){
         left: 50%;
-        animation-duration: 13s;
+        animation: burbujas-mobile 13s linear infinite;
         background: #FF4C29;
     }
     .burbujas:nth-child(4){
         left: 80%;
-        animation-duration: 10.3s;
+        animation: burbujas-mobile 10.3s linear infinite;
         background: #1E5128;
     }
     .burbujas:nth-child(5){
         left: 84%;
-        animation-duration:14s;
+        animation: burbujas-mobile 14s linear infinite;
         background: #79018C;
     }
     .burbujas:nth-child(6){
         left: 34%;
-        animation-duration: 12.7s;
+        animation: burbujas-mobile 12.7s linear infinite;
         background: #D89216;
     }
     .burbujas:nth-child(7){
         left: 67%;
-        animation-duration: 11.3s;
+        animation: burbujas-mobile 11.3s linear infinite;
         background: #C996CC;
     }
     .burbujas:nth-child(8){
         left: 74%;
-        animation-duration: 13s;
+        animation: burbujas-mobile 13s linear infinite;
         background: #1E5128;
     }
     .burbujas:nth-child(9){
         left: 3%;
-        animation-duration: 11.8s;
+        animation: burbujas-mobile 11.8s linear infinite;
         background: #1E5128;
     }
     .burbujas:nth-child(10){
         left: 74%;
-        animation-duration: 9.4s;
+        animation: burbujas-mobile 9.4s linear infinite;
         background: #1E5128;
     }
     .burbujas:nth-child(11){
         left: 80%;
-        animation-duration: 10.7s;
+        animation: burbujas-mobile 10.7s linear infinite;
         background: #FF4C29;
     }
     .burbujas:nth-child(12){
         left: 18%;
-        animation-duration: 14.9s;
+        animation: burbujas-mobile 14.9s linear infinite;
         background: #a1be1d;
     }
     .burbujas:nth-child(13){
         left: 44%;
-        animation-duration: 12.5s;
+        animation: burbujas-mobile 12.5s linear infinite;
         background: #b61e6a;
     }
     .burbujas:nth-child(14){
         left: 56%;
-        animation-duration: 14.1s;
+        animation: burbujas-mobile 14.1s linear infinite;
         background: #FF4C29;
     }
     .burbujas:nth-child(15){
         left: 60%;
-        animation-duration: 12s;
+        animation: burbujas-mobile 12s linear infinite;
         background: #FF4C29;
     }
 
     .burbujas:nth-child(16){
         left: 15%;
         animation-duration: 9.7s;
+        animation: burbujas-mobile 9.7s linear infinite;
         background: #FF4C29;
     }
     .burbujas:nth-child(17){
         left: 64%;
-        animation-duration: 10.5s;
+        animation: burbujas-mobile 10.5s linear infinite;
         background: #b61e6a;
     }
     .burbujas:nth-child(18){
         left: 61%;
-        animation-duration: 8.9s;
+        animation: burbujas-mobile 8.9s linear infinite;
         background: #1E5128;
     }
 
     /*Mejora de animacion*/
 
-    @keyframes burbujas{
+    @keyframes burbujas-mobile{
         0%{
             bottom: 100vh;
             opacity: .1;
@@ -233,7 +234,7 @@
             opacity: .3;
         }
         100%{
-            bottom: -540vh;
+            bottom: -550vh;
             opacity: 0;
         }
     }

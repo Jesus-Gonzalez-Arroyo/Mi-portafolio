@@ -11,9 +11,9 @@ class App extends React.Component{
     render(){
         return(
             <>
+                <Menudespegable/>
                 <header>
                     <Header/>
-                    <Menudespegable/>
                 </header>
                 <main>
                     <InformacionPersonal/>

@@ -18,6 +18,17 @@ body{
     background: #0F0E0E;
 }
 
+body::-webkit-scrollbar{
+    width: 10px;
+    background: #0F0E0E;
+}
+
+body::-webkit-scrollbar-thumb{
+    width: 5px;
+    border-radius: 5px;
+    background: #fff;
+}
+
 .container-header{
     width: 100%;
     padding: 0;

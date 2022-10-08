@@ -43,13 +43,19 @@
 .link-proyecto{
     width: 50%;
     margin: 10px auto;
-    padding: 6px;
+    padding: 8px;
     border-radius: 10px;
     font-size: 15px;
     display: inline-block;
     text-decoration: none;
-    color: #444;
-    background-color: #000;
+    transition: all .4s;
+    color: #000;
+    background-color: #EEEEEE;
+}
+
+
+.link-proyecto:hover{
+    background: #8B9A46;
 }
 
 /*Version Tablet*/

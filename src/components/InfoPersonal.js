@@ -11,10 +11,9 @@ export default function InformacionPersonal (){
             <div className="container-description">
                 <div className="info-description">
                     <h1>Hola, soy Jesús Gonzalez</h1>
-                    <p>Desarrollador Frontend</p>
+                    <p>Desarrollador Web Frontend</p>
                     <div className="container-btn-info">
                         <a href="https://wa.me/3043925018" target='blank'>Contactar</a>
-
                         <a href={CV} target='blank' download='CV.pdf'>Descarga mi CV</a>
                     </div>
                 </div>

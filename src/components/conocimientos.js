@@ -10,7 +10,8 @@ import Sass from '../source/image/Sass.png'
 import nodeJs from '../source/image/logo-node-js.png'
 import angular from '../source/image/logo-angular.png'
 import Typescript from '../source/image/typescript.png'
-import Vue from '../source/image/Vue.png'
+import Express from '../source/image/icon-express.png'
+import npm from '../source/image/icon-npm.png'
 
 export default function Conocimientos (){
     return(
@@ -47,6 +48,10 @@ export default function Conocimientos (){
                         <p>Node js</p>
                     </div>
                     <div className="conocimiento">
+                        <img src={Express} alt='Node js'/>
+                        <p>Express</p>
+                    </div>
+                    <div className="conocimiento">
                         <img src={Sass} alt='Tailwind'/>
                         <p>Sass</p>
                     </div>
@@ -59,8 +64,8 @@ export default function Conocimientos (){
                         <p>Typescript</p>
                     </div>
                     <div className="conocimiento">
-                        <img src={Vue} alt='Angular'/>
-                        <p>Vue</p>
+                        <img src={npm} alt='Angular'/>
+                        <p>Npm</p>
                     </div>
                 </div>
             </div>

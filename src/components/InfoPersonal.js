@@ -1,7 +1,7 @@
 import React from "react";
 import './style/Info_personal.css'
-import rick from '../source/image/Rick.webp'
-import CV from '../source/CV.pdf'
+import mifotoL from '../source/image/mi foto.jpg'
+import CV from '../source/Cv.pdf'
 
 // Componente donde estara mi informacion personal y de presentacion
 
@@ -18,7 +18,7 @@ export default function InformacionPersonal (){
                     </div>
                 </div>
                 <div className="img-description">
-                    <img src={rick} alt='imagen-personal'/>
+                    <img src={mifotoL} alt='imagen-personal'/>
                 </div>
             </div>
         </>

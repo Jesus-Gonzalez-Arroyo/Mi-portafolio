@@ -11,7 +11,6 @@ import nodeJs from '../source/image/logo-node-js.png'
 import angular from '../source/image/logo-angular.png'
 import Typescript from '../source/image/typescript.png'
 import Express from '../source/image/icon-express.png'
-import npm from '../source/image/icon-npm.png'
 
 export default function Conocimientos (){
     return(
@@ -48,7 +47,7 @@ export default function Conocimientos (){
                         <p>Node js</p>
                     </div>
                     <div className="conocimiento">
-                        <img src={Express} alt='Node js'/>
+                        <img src={Express} alt='Express'/>
                         <p>Express</p>
                     </div>
                     <div className="conocimiento">
@@ -60,12 +59,8 @@ export default function Conocimientos (){
                         <p>Angular</p>
                     </div>
                     <div className="conocimiento">
-                        <img src={Typescript} alt='Angular'/>
+                        <img src={Typescript} alt='Typescript'/>
                         <p>Typescript</p>
-                    </div>
-                    <div className="conocimiento">
-                        <img src={npm} alt='Angular'/>
-                        <p>Npm</p>
                     </div>
                 </div>
             </div>

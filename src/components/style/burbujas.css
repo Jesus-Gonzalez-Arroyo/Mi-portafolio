@@ -120,7 +120,7 @@
         opacity: .3;
     }
     100%{
-        bottom: -250vh;
+        bottom: -410vh;
         opacity: 0;
     }
 }
@@ -234,7 +234,7 @@
             opacity: .3;
         }
         100%{
-            bottom: -550vh;
+            bottom: -650vh;
             opacity: 0;
         }
     }

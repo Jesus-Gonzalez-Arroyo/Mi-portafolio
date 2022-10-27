@@ -2,7 +2,8 @@ import React from "react";
 import RickAndMorty from '../source/image/proyecto-1.png'
 import Calculadora from '../source/image/proyecto-2.png'
 import NoblesDentLab from '../source/image/nobleDentLab.png'
-import juego from '../source/image/juego.png'
+import Notas from '../source/image/proyecto-nota.png'
+import GeneradorPassword from '../source/image/generador de contraseñas.png'
 import './style/proyectos.css'
 
 // componente donde voy a exponer los conocimientos que tengo 
@@ -36,9 +37,23 @@ export default function Proyectos(){
                     </div>
                     <div className="proyecto">
                         <div>
-                            <img src={juego} alt='imagen-proyecto' />
-                            <p>Este proyecto esta creado con HTML, Css y Javascript simulando el juego de piedra papel o tijeras en este caso compitiendo con la maquina, señanlando el estado por medio de imagenes.</p>
+                            <img src={Notas} alt='imagen-proyecto' />
+                            <p>Este proyecto esta creado con HTML, Css y Javascript con el fin de desarrollar un creador de tareas o de notas.</p>
                             <a className="link-proyecto" target='blank' href="https://noblesdentlab-6cff9.web.app/">Ver proyecto</a>
+                        </div>
+                    </div>
+                    <div className="proyecto">
+                        <div>
+                            <img src={NoblesDentLab} alt='imagen-proyecto'/>
+                            <p>Este proyecto esta creado con Angular y css, con esta app se puede agregar, modificar y eliminar usuarios de una lista.</p>
+                            <a className="link-proyecto" href="f">Ver proyecto</a>
+                        </div>
+                    </div>
+                    <div className="proyecto">
+                        <div>
+                            <img src={GeneradorPassword} alt='imagen-proyecto'/>
+                            <p>Este proyecto esta creado con React js simulando un generador de contraseñas con la opcion de que el usuario pueda escojer la cantidad de caracteres que tendra la contraseña.</p>
+                            <a className="link-proyecto" href="f">Ver proyecto</a>
                         </div>
                     </div>
                 </div>

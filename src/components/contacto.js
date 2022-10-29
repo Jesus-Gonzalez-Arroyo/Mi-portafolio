@@ -22,7 +22,7 @@ export default function Contacto(){
                             <a href="https://github.com/Jisus1102" target='blank'><FaGithub className="icon github"/></a>
                         </div>
                         <div>
-                            <a href="f" target='blank'><FaGoogle className="icon gmail"/></a>
+                            <a href="mailto:jesusdavidgonzales1102@gmail.com?subject=Oferta%20laboral"><FaGoogle className="icon gmail"/></a>
                         </div>
                     </div>
                 </div>

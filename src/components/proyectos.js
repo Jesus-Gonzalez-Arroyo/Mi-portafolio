@@ -32,28 +32,28 @@ export default function Proyectos(){
                         <div>
                             <img src={NoblesDentLab} alt='imagen-proyecto'/>
                             <p>Este proyecto esta creado con HTML, Css y Javascript, fue creado para exponer al publico los servicios de una clinica dental.</p>
-                            <a className="link-proyecto" href="f">Ver proyecto</a>
+                            <a className="link-proyecto" target='blank' href="https://funny-cucurucho-ec7210.netlify.app/">Ver proyecto</a>
                         </div>
                     </div>
                     <div className="proyecto">
                         <div>
                             <img src={Notas} alt='imagen-proyecto' />
                             <p>Este proyecto esta creado con HTML, Css y Javascript con el fin de desarrollar un creador de tareas o de notas.</p>
-                            <a className="link-proyecto" target='blank' href="https://noblesdentlab-6cff9.web.app/">Ver proyecto</a>
+                            <a className="link-proyecto" target='blank' href="https://splendorous-pastelito-b1309b.netlify.app/">Ver proyecto</a>
                         </div>
                     </div>
                     <div className="proyecto">
                         <div>
                             <img src={NoblesDentLab} alt='imagen-proyecto'/>
                             <p>Este proyecto esta creado con Angular y css, con esta app se puede agregar, modificar y eliminar usuarios de una lista.</p>
-                            <a className="link-proyecto" href="f">Ver proyecto</a>
+                            <a className="link-proyecto" target='blank' href="f">Ver proyecto</a>
                         </div>
                     </div>
                     <div className="proyecto">
                         <div>
                             <img src={GeneradorPassword} alt='imagen-proyecto'/>
                             <p>Este proyecto esta creado con React js simulando un generador de contraseñas con la opcion de que el usuario pueda escojer la cantidad de caracteres que tendra la contraseña.</p>
-                            <a className="link-proyecto" href="f">Ver proyecto</a>
+                            <a className="link-proyecto" target='blank' href="https://dancing-brioche-83b7b2.netlify.app/">Ver proyecto</a>
                         </div>
                     </div>
                 </div>

@@ -4,6 +4,7 @@ import Calculadora from '../source/image/proyecto-2.png'
 import NoblesDentLab from '../source/image/nobleDentLab.png'
 import Notas from '../source/image/proyecto-nota.png'
 import GeneradorPassword from '../source/image/generador de contraseñas.png'
+import Crud from '../source/image/Crud angular.png'
 import './style/proyectos.css'
 
 // componente donde voy a exponer los conocimientos que tengo 
@@ -44,9 +45,9 @@ export default function Proyectos(){
                     </div>
                     <div className="proyecto">
                         <div>
-                            <img src={NoblesDentLab} alt='imagen-proyecto'/>
+                            <img src={Crud} alt='imagen-proyecto'/>
                             <p>Este proyecto esta creado con Angular y css, con esta app se puede agregar, modificar y eliminar usuarios de una lista.</p>
-                            <a className="link-proyecto" target='blank' href="f">Ver proyecto</a>
+                            <a className="link-proyecto" target='blank' href="https://ubiquitous-donut-c289af.netlify.app/">Ver proyecto</a>
                         </div>
                     </div>
                     <div className="proyecto">

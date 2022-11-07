@@ -16,7 +16,7 @@ export default function Contacto(){
                             <a href="https://wa.me/3043925018" target='blank'><FaWhatsapp className="icon whatsapp"/></a>
                         </div>
                         <div>
-                            <a href="https://www.linkedin.com/in/jesus-david-gonzalez-arroyo-8430a1242/" target='blank'><FaLinkedin className="icon linkedin"/></a>
+                            <a href="https://linkedin.com/in/jesus-david-gonzalez-arroyo-8430a1242" target='blank'><FaLinkedin className="icon linkedin"/></a>
                         </div>
                         <div>
                             <a href="https://github.com/Jisus1102" target='blank'><FaGithub className="icon github"/></a>

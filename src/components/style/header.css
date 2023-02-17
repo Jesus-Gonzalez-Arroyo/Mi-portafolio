@@ -5,7 +5,7 @@ html{
 header{
     width: 100%;
     height: 60px;
-    background: #0F0E0E;
+    background: #85CDFD;
     z-index: 100;
     top: 0;
     position: sticky;
@@ -15,12 +15,12 @@ body{
     color: #fff;
     margin: 0;
     z-index: 1;
-    background: #0F0E0E;
+    background: #85CDFD;
 }
 
 body::-webkit-scrollbar{
     width: 10px;
-    background: #0F0E0E;
+    background: #85CDFD;
 }
 
 body::-webkit-scrollbar-thumb{
@@ -40,6 +40,8 @@ body::-webkit-scrollbar-thumb{
     height: 100px;
     text-align: center;
     font-family: "Segoe UI";
+    position: relative;
+    z-index: 100;
 }
 
 .ul{
@@ -64,11 +66,17 @@ body::-webkit-scrollbar-thumb{
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .container-icon-menu{
     display: none;
+}
+
+.Nubes {
+    width: 100%;
+    height: 170px;
+    position: absolute;
 }
 
 /*Version tablet*/

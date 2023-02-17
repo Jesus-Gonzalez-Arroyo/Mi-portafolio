@@ -5,7 +5,7 @@ main{
 .container-description{
     width: 70%;
     min-height: 60vh;
-    margin: 40px auto 130px auto;
+    margin: 70px auto 130px auto;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -46,7 +46,8 @@ main{
 }
 
 .container-btn-info a:hover{
-    background: #8B9A46;
+    background: #444;
+    color: #fff;
 }
 
 .img-description img{

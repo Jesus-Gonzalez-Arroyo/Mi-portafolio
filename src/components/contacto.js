@@ -19,7 +19,7 @@ export default function Contacto(){
                             <a href="https://linkedin.com/in/jesus-david-gonzalez-arroyo-8430a1242" target='blank'><FaLinkedin className="icon linkedin"/></a>
                         </div>
                         <div>
-                            <a href="https://github.com/Jisus1102" target='blank'><FaGithub className="icon github"/></a>
+                            <a href="https://github.com/Jesus-Gonzalez-Arroyo" target='blank'><FaGithub className="icon github"/></a>
                         </div>
                         <div>
                             <a href="mailto:jesusdavidgonzales1102@gmail.com?subject=Oferta%20laboral"><FaGoogle className="icon gmail"/></a>

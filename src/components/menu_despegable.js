@@ -8,14 +8,11 @@ export default function Menudespegable(){
     const [MenuMobile, setMenuMobile] = useState(false)
 
     return(
-        
         /*Utilizamos usestate para abrir y cerrae el menu con el styled-components*/
         <IconContext.Provider value={{style: {fontSize: '30px'}}}>
-
             <Containermenu>
                 <FaBars onClick={() => setMenuMobile(!MenuMobile)}/>
             </Containermenu>
-
             <Nav open={MenuMobile}>
                 <Ul>
                     <Li><A href="#conocimiento" onClick={() => setMenuMobile(!MenuMobile)} >Conocimientos</A></Li>
@@ -23,7 +20,6 @@ export default function Menudespegable(){
                     <Li><A href="#contacto" onClick={() => setMenuMobile(!MenuMobile)}>Contacto</A></Li>
                 </Ul>
             </Nav>
-
         </IconContext.Provider>
     )
 }

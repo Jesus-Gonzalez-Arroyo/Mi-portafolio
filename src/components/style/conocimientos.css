@@ -10,7 +10,7 @@
 
 .container-grid{
     width: 90%;
-    margin: 50px auto;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(2, 200px) ;
@@ -31,6 +31,33 @@
 .conocimiento img{
     width: 110px;
     height: 100px;
+}
+
+.container_conocimientos {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.container_frontend {
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+    margin: 70px auto;
+}
+
+.container_backend {
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid_backend {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 200px) ;
 }
 
 /*Version tablet*/

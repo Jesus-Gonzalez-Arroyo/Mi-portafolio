@@ -85,12 +85,20 @@ a{
     .container-menu{
         display: block;
     }
+
+    .Nubes {
+        height: 90px;
+    }
 }
 
 /*Version movile*/
 
 @media screen and (max-width: 670px) {
     .container-menu{
+        display: none;
+    }
+
+    .Nubes {
         display: none;
     }
 

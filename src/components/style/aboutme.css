@@ -1,0 +1,38 @@
+.container_aboutme {
+    width: 50%;
+    margin: 0 auto 170px auto;
+    padding: 40px;
+    border-radius: 10px;
+    color: #000;
+    background: #fff;
+}
+
+.title_aboutme {
+    width: 100%;
+    text-align: center;
+    font-size: 40px; 
+    font-family: 'Segoe UI';
+    margin: 0;
+}
+
+.description_aboutme {
+    font-size: 17px;
+    font-family: 'Segoe UI';
+}
+
+.pincho1 {
+    width: 10px;
+    height: 10px;
+    top: 20px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    background: red;
+}
+
+@media screen and (max-width: 600px) {
+    .container_aboutme {
+        width: 70%;
+        margin: 100px auto 20px auto;
+    }
+} 

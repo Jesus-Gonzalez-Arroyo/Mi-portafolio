@@ -41,17 +41,17 @@ export default function Proyectos(){
                             <p>El proyecto CreditCardComponent se basa en un carrito de compras por medio de pago por tarjeta donde se muestra una animacion de la tarjeta la cual se indentifica su entidad segun el numero que ingrese el usuario.</p>
                             <div className="botones_projects">
                                 <a className="link-proyecto" target='blank' href="https://funny-cucurucho-ec7210.netlify.app/">Ver proyecto</a>
-                                <a className="link-proyecto" target='blank' href="">Ver codigo</a>
+                                <a className="link-proyecto" target='blank' href="https://github.com/Jesus-Gonzalez-Arroyo/credit-card-component">Ver codigo</a>
                             </div>
                         </div>
                     </div>
                     <div className="proyecto">
                         <div>
                             <img src={Notas} alt='imagen-proyecto' />
-                            <p>Este proyecto se basa en la creacion de una pagina web para ayudar a los dev juniors, se basa en comprar ciertos paquetes donde se ofrecen diferentes planes y servicios, se desarrollo con Next js y React.</p>
+                            <p>Este proyecto se basa en la creacion de una pagina web para ayudar a los dev juniors, se basa en comprar ciertos paquetes donde se ofrecen diferentes planes y servicios, se desarrollo con Next js y React usando en los estilos Tailwind.</p>
                             <div className="botones_projects">
                                 <a className="link-proyecto" target='blank' href="https://3691b063.junior-landing.pages.dev/">Ver proyecto</a>
-                                <a className="link-proyecto" target='blank' href="">Ver codigo</a>
+                                <a className="link-proyecto" target='blank' href="https://github.com/Jesus-Gonzalez-Arroyo/junior-landing">Ver codigo</a>
                             </div>
                         </div>
                     </div>

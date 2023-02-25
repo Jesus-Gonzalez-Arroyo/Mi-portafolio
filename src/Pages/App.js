@@ -6,6 +6,7 @@ import Proyectos from "../components/proyectos";
 import Contacto from "../components/contacto";
 import Menudespegable from "../components/menu_despegable";
 import Burbujas from "../components/burbujas";
+import Aboutme from '../components/Aboutme';
 
 class App extends React.Component{
     render(){
@@ -17,6 +18,7 @@ class App extends React.Component{
                 </header>
                 <main>
                     <InformacionPersonal/>
+                    <Aboutme/>
                     <Conocimientos/>
                     <Proyectos/>
                 </main>

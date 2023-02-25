@@ -10,6 +10,9 @@ import Typescript from '../source/image/typescript.png'
 /* import Python from '../source/image/python.png'
 import Mongodb from '../source/image/MongoDB.png' */
 import Next from '../source/image/nextjs.png'
+import Tailwind from '../source/image/Tailwind.png'
+import Angular from '../source/image/Angular.png'
+import Node from '../source/image/Nodejs.png'
 
 export default function Conocimientos (){
     return(
@@ -37,8 +40,8 @@ export default function Conocimientos (){
                                 <p>React</p>
                             </div>
                             <div className="conocimiento">
-                                <img src={Sass} alt='Tailwind'/>
-                                <p>Sass</p>
+                                <img src={Angular} alt='Angular'/>
+                                <p>Angular</p>
                             </div>
                             <div className="conocimiento">
                                 <img src={Typescript} alt='Typescript'/>
@@ -47,6 +50,18 @@ export default function Conocimientos (){
                             <div className="conocimiento">
                                 <img src={Next} alt='Next js'/>
                                 <p>Next js</p>
+                            </div>
+                            <div className="conocimiento">
+                                <img src={Node} alt='Node js'/>
+                                <p>Node js</p>
+                            </div>
+                            <div className="conocimiento">
+                                <img src={Tailwind} alt='Tailwind'/>
+                                <p>Tailwind</p>
+                            </div>
+                            <div className="conocimiento">
+                                <img src={Sass} alt='Tailwind'/>
+                                <p>Sass</p>
                             </div>
                         </div>
                     </div>

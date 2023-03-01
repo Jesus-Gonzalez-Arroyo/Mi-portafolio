@@ -20,19 +20,15 @@
     font-family: 'Segoe UI';
 }
 
-.pincho1 {
-    width: 10px;
-    height: 10px;
-    top: 20px;
-    border-radius: 50%;
-    display: block;
-    position: absolute;
-    background: red;
-}
-
 @media screen and (max-width: 600px) {
     .container_aboutme {
         width: 70%;
         margin: 100px auto 20px auto;
     }
-} 
+}
+
+@media screen and (max-width: 1000px) {
+    .container_aboutme {
+        margin: 50px auto;
+    }
+}

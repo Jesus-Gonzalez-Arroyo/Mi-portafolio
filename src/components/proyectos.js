@@ -40,7 +40,7 @@ export default function Proyectos(){
                             <img src={NoblesDentLab} alt='imagen-proyecto'/>
                             <p>El proyecto CreditCardComponent se basa en un carrito de compras por medio de pago por tarjeta donde se muestra una animacion de la tarjeta la cual se indentifica su entidad segun el numero que ingrese el usuario.</p>
                             <div className="botones_projects">
-                                <a className="link-proyecto" target='blank' href="https://funny-cucurucho-ec7210.netlify.app/">Ver proyecto</a>
+                                <a className="link-proyecto" target='blank' href="https://darling-kataifi-32bbf9.netlify.app/">Ver proyecto</a>
                                 <a className="link-proyecto" target='blank' href="https://github.com/Jesus-Gonzalez-Arroyo/credit-card-component">Ver codigo</a>
                             </div>
                         </div>

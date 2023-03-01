@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb086c14.css",
+    "main.js": "/static/js/main.536a8e31.js",
+    "static/media/proyecto-1.png": "/static/media/proyecto-1.46b9d3e5e52a722fae6e.png",
+    "static/media/JuniorsDevProject.png": "/static/media/JuniorsDevProject.fda9c6e7b717a8bfadd1.png",
+    "static/media/Cv.pdf": "/static/media/Cv.bdeeedc25c255f36d574.pdf",
+    "static/media/CreditCardComponent.png": "/static/media/CreditCardComponent.e55e30cb895b983ce957.png",
+    "static/media/Sass.png": "/static/media/Sass.95b95881f872d00e7e7b.png",
+    "static/media/logo-css.png": "/static/media/logo-css.bcf9ebf56163dd791979.png",
+    "static/media/Tailwind.png": "/static/media/Tailwind.36b2728bf0d14b7b7576.png",
+    "static/media/logo-react.png": "/static/media/logo-react.25803af39958a2cb9df1.png",
+    "static/media/CloudsProjects.png": "/static/media/CloudsProjects.9e0221c605edce98e441.png",
+    "static/media/mi foto.jfif": "/static/media/mi foto.ef6844ff902fb8e7565f.jfif",
+    "static/media/Angular.png": "/static/media/Angular.8cbd3d8b9701ad8e21e7.png",
+    "static/media/logo-html.png": "/static/media/logo-html.9d7c8592b3efd8e9defb.png",
+    "static/media/Crud angular.png": "/static/media/Crud angular.8166edcc45d78150f387.png",
+    "static/media/proyecto-2.png": "/static/media/proyecto-2.ba1b38707d99ab1be6cd.png",
+    "static/media/logo-js.jpg": "/static/media/logo-js.5648ae0aeb0182cbd857.jpg",
+    "static/media/nextjs.png": "/static/media/nextjs.644e86ec6ae8d96c7ebd.png",
+    "static/media/generador de contraseñas.png": "/static/media/generador de contraseñas.c8d1cc2eb49e8e18002e.png",
+    "static/media/typescript.png": "/static/media/typescript.414088d23938738de191.png",
+    "index.html": "/index.html",
+    "main.eb086c14.css.map": "/static/css/main.eb086c14.css.map",
+    "main.536a8e31.js.map": "/static/js/main.536a8e31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb086c14.css",
+    "static/js/main.536a8e31.js"
+  ]
+}
